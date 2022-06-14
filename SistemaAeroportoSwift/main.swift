@@ -9,4 +9,9 @@
 import Foundation
 
 print("Hello, World!")
+print("##############")
 
+
+var aeroporto = Aeroporto();
+
+print(aeroporto)

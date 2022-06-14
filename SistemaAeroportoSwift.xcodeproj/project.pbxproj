@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E399EAF28576BAE00EADDA4 /* aeroporto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E399EAE28576BAE00EADDA4 /* aeroporto.swift */; };
 		2E6825FE28573D26002CB737 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6825FD28573D26002CB737 /* main.swift */; };
+		2E68260528573D7A002CB737 /* persona.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E68260428573D7A002CB737 /* persona.swift */; };
+		2E68260728573F5F002CB737 /* capitano.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E68260628573F5F002CB737 /* capitano.swift */; };
+		2E682609285744FF002CB737 /* personale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E682608285744FF002CB737 /* personale.swift */; };
+		2E68260B2857483E002CB737 /* passeggero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E68260A2857483E002CB737 /* passeggero.swift */; };
+		2E68260D28574AE4002CB737 /* aeroplano.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E68260C28574AE4002CB737 /* aeroplano.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +29,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2E399EAE28576BAE00EADDA4 /* aeroporto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aeroporto.swift; sourceTree = "<group>"; };
 		2E6825FA28573D26002CB737 /* SistemaAeroportoSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SistemaAeroportoSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E6825FD28573D26002CB737 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2E68260428573D7A002CB737 /* persona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = persona.swift; sourceTree = "<group>"; };
+		2E68260628573F5F002CB737 /* capitano.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capitano.swift; sourceTree = "<group>"; };
+		2E682608285744FF002CB737 /* personale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personale.swift; sourceTree = "<group>"; };
+		2E68260A2857483E002CB737 /* passeggero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passeggero.swift; sourceTree = "<group>"; };
+		2E68260C28574AE4002CB737 /* aeroplano.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aeroplano.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				2E6825FD28573D26002CB737 /* main.swift */,
+				2E68260428573D7A002CB737 /* persona.swift */,
+				2E682608285744FF002CB737 /* personale.swift */,
+				2E68260A2857483E002CB737 /* passeggero.swift */,
+				2E68260C28574AE4002CB737 /* aeroplano.swift */,
+				2E399EAE28576BAE00EADDA4 /* aeroporto.swift */,
+				2E68260628573F5F002CB737 /* capitano.swift */,
 			);
 			path = SistemaAeroportoSwift;
 			sourceTree = "<group>";
@@ -119,7 +137,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E68260528573D7A002CB737 /* persona.swift in Sources */,
+				2E68260D28574AE4002CB737 /* aeroplano.swift in Sources */,
+				2E68260728573F5F002CB737 /* capitano.swift in Sources */,
+				2E399EAF28576BAE00EADDA4 /* aeroporto.swift in Sources */,
 				2E6825FE28573D26002CB737 /* main.swift in Sources */,
+				2E682609285744FF002CB737 /* personale.swift in Sources */,
+				2E68260B2857483E002CB737 /* passeggero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
