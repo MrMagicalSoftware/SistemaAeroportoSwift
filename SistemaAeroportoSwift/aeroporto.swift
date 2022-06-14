@@ -20,7 +20,7 @@ class Aeroporto {
     
     
     func mostraAerei(){
-        
+        //aggiunta di questa funzione
         //return self.aeroplani
     }
     
